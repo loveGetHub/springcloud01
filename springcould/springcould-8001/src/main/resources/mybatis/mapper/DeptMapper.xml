@@ -4,11 +4,11 @@
 
 <mapper namespace="com.min.springcloud.dao.DeptDao">
 
-    <select id="findById" resultType="Dept" parameterType="Long">
+    <select id="findById" resultType="Dept" parameterType="java.lang.Long">
 		select deptno,dname,db_source from dept where deptno=#{deptno}
 	</select>
     <select id="findAll" resultType="Dept">
-		select deptno,dname,db_source from dept
+		select * from dept
 	</select>
     <insert id="addDept" parameterType="Dept">
 	    insert into dept (dname, db_source) values (
