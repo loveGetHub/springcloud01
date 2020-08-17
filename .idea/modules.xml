@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcould/springcould.iml" filepath="$PROJECT_DIR$/springcould/springcould.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcould/springcould-8001/springcould-8001.iml" filepath="$PROJECT_DIR$/springcould/springcould-8001/springcould-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcould/springcould-api/springcould-api.iml" filepath="$PROJECT_DIR$/springcould/springcould-api/springcould-api.iml" />
+    </modules>
+  </component>
+</project>
