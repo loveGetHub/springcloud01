@@ -1,11 +1,11 @@
 server:
-  port: 8003
+  port: 8005
 
   eureka:
     instance:
-      hostname: eureka8003.com                # eureka服务端的实例名称
+      hostname: eureka8005.com                        # eureka服务端的实例名称
     client:
       register-with-eureka: false              #false表示不向注册中心注册自己
       fetch-registry: false                    #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要取检索服务
       server-url:
-        defaultZone: http://eureka8005.com:8005/eureka/,http://eureka8004.com:8004/eureka/          #设置与eureka server交互的地址查询服务和注册服务
+        defaultZone: http://eureka8003.com:8003/eureka/,http://eureka8004.com:8004/eureka/        #设置与eureka server交互的地址查询服务和注册服务

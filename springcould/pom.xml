@@ -7,7 +7,9 @@
         <module>springcould-api</module>
 		<module>springcould-8001</module>
 		<module>springcloud-provider-dept-80</module>
-		<module>springcloud-eurka-8003</module>
+		<module>springcloud-eureka-8003</module>
+		<module>springcloud-eureka-8004</module>
+		<module>springcloud-eureka-8005</module>
 	</modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
@@ -88,13 +90,23 @@
 		</dependencies>
 	</dependencyManagement>
 
-<!--	<build>-->
-<!--		<plugins>-->
-<!--			<plugin>-->
-<!--				<groupId>org.springframework.boot</groupId>-->
-<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--			</plugin>-->
-<!--		</plugins>-->
-<!--	</build>-->
+	<build>
+		<finalName>springcloud</finalName>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
