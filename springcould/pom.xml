@@ -10,7 +10,10 @@
 		<module>springcloud-eureka-8003</module>
 		<module>springcloud-eureka-8004</module>
 		<module>springcloud-eureka-8005</module>
-	</modules>
+        <module>springcloud-8006</module>
+		<module>springcloud-8007</module>
+        <module>springcloud-consumer-dept-feign</module>
+    </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -90,23 +93,23 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<build>
-		<finalName>springcloud</finalName>
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-				<filtering>true</filtering>
-			</resource>
-		</resources>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+<!--	<build>-->
+<!--		<finalName>springcloud</finalName>-->
+<!--		<resources>-->
+<!--			<resource>-->
+<!--				<directory>src/main/resources</directory>-->
+<!--				<filtering>true</filtering>-->
+<!--			</resource>-->
+<!--		</resources>-->
+<!--		<plugins>-->
+<!--			<plugin>-->
+<!--				<groupId>org.springframework.boot</groupId>-->
+<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--				<configuration>-->
 
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+<!--				</configuration>-->
+<!--			</plugin>-->
+<!--		</plugins>-->
+<!--	</build>-->
 
 </project>

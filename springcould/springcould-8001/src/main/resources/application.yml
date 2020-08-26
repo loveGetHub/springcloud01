@@ -31,5 +31,5 @@ eureka:
 
 #info配置
 info:
-  app.name:  springcloud
+  app.name:  springcloud1
   company.name: www.baidu.com1

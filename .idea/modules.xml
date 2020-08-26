@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcould/springcloud-8006/springcloud-8006.iml" filepath="$PROJECT_DIR$/springcould/springcloud-8006/springcloud-8006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcould/springcloud-8007/springcloud-8007.iml" filepath="$PROJECT_DIR$/springcould/springcloud-8007/springcloud-8007.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcould/springcloud-consumer-dept-feign/springcloud-consumer-dept-feign.iml" filepath="$PROJECT_DIR$/springcould/springcloud-consumer-dept-feign/springcloud-consumer-dept-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcould/springcloud-eureka-8003/springcloud-eureka-8003.iml" filepath="$PROJECT_DIR$/springcould/springcloud-eureka-8003/springcloud-eureka-8003.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcould/springcloud-eureka-8004/springcloud-eureka-8004.iml" filepath="$PROJECT_DIR$/springcould/springcloud-eureka-8004/springcloud-eureka-8004.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcould/springcloud-eureka-8005/springcloud-eureka-8005.iml" filepath="$PROJECT_DIR$/springcould/springcloud-eureka-8005/springcloud-eureka-8005.iml" />

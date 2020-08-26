@@ -8,14 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcould-api" />
+        <module name="springcloud-8006" />
+        <module name="springcloud-consumer-dept-feign" />
         <module name="springcloud-eureka-8005" />
         <module name="springcloud-eureka-8004" />
         <module name="springcloud-eureka-8003" />
         <module name="springcloud-provider-dept-80" />
         <module name="springcould-8001" />
+        <module name="springcloud-8007" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springcloud-8006" target="1.8" />
+      <module name="springcloud-8007" target="1.8" />
+      <module name="springcloud-consumer-dept-feign" target="1.8" />
       <module name="springcloud-eureka-8003" target="1.8" />
       <module name="springcloud-eureka-8004" target="1.8" />
       <module name="springcloud-eureka-8005" target="1.8" />
@@ -27,6 +33,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-8006" options="-parameters" />
+      <module name="springcloud-8007" options="-parameters" />
+      <module name="springcloud-consumer-dept-feign" options="-parameters" />
       <module name="springcloud-eureka-8003" options="-parameters" />
       <module name="springcloud-eureka-8004" options="-parameters" />
       <module name="springcloud-eureka-8005" options="-parameters" />
