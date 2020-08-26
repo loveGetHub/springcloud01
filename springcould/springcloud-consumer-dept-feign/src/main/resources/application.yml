@@ -7,3 +7,7 @@ eureka:
     register-with-eureka: false
     service-url:
       defaultZone: http://eureka8003.com:8003/eureka/,http://eureka8004.com:8004/eureka/,http://eureka8005.com:8005/eureka/
+
+feign:
+  hystrix:
+    enabled: true

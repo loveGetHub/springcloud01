@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
+@SpringBootApplication(exclude= {DataSourceAutoConfiguration.class},scanBasePackages = {"service","com.min.springcloud"})
 @EnableEurekaClient
 @EnableFeignClients(basePackages = {"service"})
 public class DeptConsumer80_Feign_App {
