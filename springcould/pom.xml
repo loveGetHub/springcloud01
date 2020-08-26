@@ -13,6 +13,7 @@
         <module>springcloud-8006</module>
 		<module>springcloud-8007</module>
         <module>springcloud-consumer-dept-feign</module>
+        <module>springcloud-provider-dept-hystrix-8001</module>
     </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>

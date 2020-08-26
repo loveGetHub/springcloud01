@@ -16,6 +16,7 @@
         <module name="springcloud-provider-dept-80" />
         <module name="springcould-8001" />
         <module name="springcloud-8007" />
+        <module name="springcloud-provider-dept-hystrix-8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,7 @@
       <module name="springcloud-eureka-8004" target="1.8" />
       <module name="springcloud-eureka-8005" target="1.8" />
       <module name="springcloud-provider-dept-80" target="1.8" />
+      <module name="springcloud-provider-dept-hystrix-8001" target="1.8" />
       <module name="springcould" target="1.8" />
       <module name="springcould-8001" target="1.8" />
       <module name="springcould-api" target="1.8" />
@@ -40,6 +42,7 @@
       <module name="springcloud-eureka-8004" options="-parameters" />
       <module name="springcloud-eureka-8005" options="-parameters" />
       <module name="springcloud-provider-dept-80" options="-parameters" />
+      <module name="springcloud-provider-dept-hystrix-8001" options="-parameters" />
       <module name="springcould-8001" options="-parameters" />
       <module name="springcould-api" options="-parameters" />
     </option>
